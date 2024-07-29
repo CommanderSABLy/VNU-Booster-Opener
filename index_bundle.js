@@ -273,6 +273,17 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 /***/ }),
 
+/***/ "./src/images/cards/GunPla-kyrie.png":
+/*!*******************************************!*\
+  !*** ./src/images/cards/GunPla-kyrie.png ***!
+  \*******************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"1870e7b7be0c1d1acf23bd3ea9751e2c.png\");\n\n//# sourceURL=webpack://vnu-booster-pack-opening/./src/images/cards/GunPla-kyrie.png?");
+
+/***/ }),
+
 /***/ "./src/images/cards/IMG_0308.png":
 /*!***************************************!*\
   !*** ./src/images/cards/IMG_0308.png ***!
@@ -350,6 +361,17 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 /***/ }),
 
+/***/ "./src/images/cards/Liora_Walkyria_Most_Youngest_and_Most_Seiso_ValkyrieSummer.png":
+/*!*****************************************************************************************!*\
+  !*** ./src/images/cards/Liora_Walkyria_Most_Youngest_and_Most_Seiso_ValkyrieSummer.png ***!
+  \*****************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"1ee0afda829058bfbd848f7fe5b167d3.png\");\n\n//# sourceURL=webpack://vnu-booster-pack-opening/./src/images/cards/Liora_Walkyria_Most_Youngest_and_Most_Seiso_ValkyrieSummer.png?");
+
+/***/ }),
+
 /***/ "./src/images/cards/Lioras_Gambit.png":
 /*!********************************************!*\
   !*** ./src/images/cards/Lioras_Gambit.png ***!
@@ -394,6 +416,17 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 /***/ }),
 
+/***/ "./src/images/cards/Screenshot_20240729_051325_Gallery.jpg":
+/*!*****************************************************************!*\
+  !*** ./src/images/cards/Screenshot_20240729_051325_Gallery.jpg ***!
+  \*****************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"6fdf968e6636d0538f9d93ecf0e810b2.jpg\");\n\n//# sourceURL=webpack://vnu-booster-pack-opening/./src/images/cards/Screenshot_20240729_051325_Gallery.jpg?");
+
+/***/ }),
+
 /***/ "./src/images/cards/TCG.png":
 /*!**********************************!*\
   !*** ./src/images/cards/TCG.png ***!
@@ -402,6 +435,17 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"ef4db4b332abb5b11dcf0675825d4fb9.png\");\n\n//# sourceURL=webpack://vnu-booster-pack-opening/./src/images/cards/TCG.png?");
+
+/***/ }),
+
+/***/ "./src/images/cards/TCG_B.png":
+/*!************************************!*\
+  !*** ./src/images/cards/TCG_B.png ***!
+  \************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"cd53be6c5e12bae40fb7b6e74bd54f78.png\");\n\n//# sourceURL=webpack://vnu-booster-pack-opening/./src/images/cards/TCG_B.png?");
 
 /***/ }),
 
@@ -460,6 +504,17 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 /***/ }),
 
+/***/ "./src/images/cards/gift_of_hopepng.png":
+/*!**********************************************!*\
+  !*** ./src/images/cards/gift_of_hopepng.png ***!
+  \**********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"aad180440e0ffe5880e155beb5441fff.png\");\n\n//# sourceURL=webpack://vnu-booster-pack-opening/./src/images/cards/gift_of_hopepng.png?");
+
+/***/ }),
+
 /***/ "./src/images/cards/image.png":
 /*!************************************!*\
   !*** ./src/images/cards/image.png ***!
@@ -479,6 +534,17 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"95ea0e3ea43be89456eb46926faf6a51.png\");\n\n//# sourceURL=webpack://vnu-booster-pack-opening/./src/images/cards/liora_Grand_Archive.png?");
+
+/***/ }),
+
+/***/ "./src/images/cards/liora_card.png":
+/*!*****************************************!*\
+  !*** ./src/images/cards/liora_card.png ***!
+  \*****************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"74a2d1d6b6d38e8cd65bc5ef699f83c3.png\");\n\n//# sourceURL=webpack://vnu-booster-pack-opening/./src/images/cards/liora_card.png?");
 
 /***/ }),
 
@@ -532,7 +598,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \*****************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("var map = {\n\t\"./3am_Karaoke.png\": \"./src/images/cards/3am_Karaoke.png\",\n\t\"./Agent_XI_of_Justice_Liora.png\": \"./src/images/cards/Agent_XI_of_Justice_Liora.png\",\n\t\"./Car_Liora.png\": \"./src/images/cards/Car_Liora.png\",\n\t\"./IMG_0308.png\": \"./src/images/cards/IMG_0308.png\",\n\t\"./JetLioraCard.png\": \"./src/images/cards/JetLioraCard.png\",\n\t\"./Lioopa.png\": \"./src/images/cards/Lioopa.png\",\n\t\"./LioraTCGBDay2024.png\": \"./src/images/cards/LioraTCGBDay2024.png\",\n\t\"./Liora_CFG.png\": \"./src/images/cards/Liora_CFG.png\",\n\t\"./Liora_Valkyrie_of_Yore.png\": \"./src/images/cards/Liora_Valkyrie_of_Yore.png\",\n\t\"./Liora_Walkyria_-_Pursuer_of_Fate.png\": \"./src/images/cards/Liora_Walkyria_-_Pursuer_of_Fate.png\",\n\t\"./Lioras_Gambit.png\": \"./src/images/cards/Lioras_Gambit.png\",\n\t\"./Palwall.png\": \"./src/images/cards/Palwall.png\",\n\t\"./SPOILER_TCG-Liora-edition-RRR.png\": \"./src/images/cards/SPOILER_TCG-Liora-edition-RRR.png\",\n\t\"./SPOILER_TCG-Liora-edition-SP.png\": \"./src/images/cards/SPOILER_TCG-Liora-edition-SP.png\",\n\t\"./TCG.png\": \"./src/images/cards/TCG.png\",\n\t\"./TCG_Lioldge.png\": \"./src/images/cards/TCG_Lioldge.png\",\n\t\"./aphantasia-tcg.png\": \"./src/images/cards/aphantasia-tcg.png\",\n\t\"./arthritic_hip_TCG.png\": \"./src/images/cards/arthritic_hip_TCG.png\",\n\t\"./crab-tcg.png\": \"./src/images/cards/crab-tcg.png\",\n\t\"./crowd_control_valk_TCG.png\": \"./src/images/cards/crowd_control_valk_TCG.png\",\n\t\"./image.png\": \"./src/images/cards/image.png\",\n\t\"./liora_Grand_Archive.png\": \"./src/images/cards/liora_Grand_Archive.png\",\n\t\"./lioratcg.png\": \"./src/images/cards/lioratcg.png\",\n\t\"./saul_tcg.png\": \"./src/images/cards/saul_tcg.png\",\n\t\"./wiowa_tcg.png\": \"./src/images/cards/wiowa_tcg.png\"\n};\n\n\nfunction webpackContext(req) {\n\tvar id = webpackContextResolve(req);\n\treturn __webpack_require__(id);\n}\nfunction webpackContextResolve(req) {\n\tif(!__webpack_require__.o(map, req)) {\n\t\tvar e = new Error(\"Cannot find module '\" + req + \"'\");\n\t\te.code = 'MODULE_NOT_FOUND';\n\t\tthrow e;\n\t}\n\treturn map[req];\n}\nwebpackContext.keys = function webpackContextKeys() {\n\treturn Object.keys(map);\n};\nwebpackContext.resolve = webpackContextResolve;\nmodule.exports = webpackContext;\nwebpackContext.id = \"./src/images/cards sync recursive ^\\\\.\\\\/.*$\";\n\n//# sourceURL=webpack://vnu-booster-pack-opening/./src/images/cards/_sync_^\\.\\/.*$?");
+eval("var map = {\n\t\"./3am_Karaoke.png\": \"./src/images/cards/3am_Karaoke.png\",\n\t\"./Agent_XI_of_Justice_Liora.png\": \"./src/images/cards/Agent_XI_of_Justice_Liora.png\",\n\t\"./Car_Liora.png\": \"./src/images/cards/Car_Liora.png\",\n\t\"./GunPla-kyrie.png\": \"./src/images/cards/GunPla-kyrie.png\",\n\t\"./IMG_0308.png\": \"./src/images/cards/IMG_0308.png\",\n\t\"./JetLioraCard.png\": \"./src/images/cards/JetLioraCard.png\",\n\t\"./Lioopa.png\": \"./src/images/cards/Lioopa.png\",\n\t\"./LioraTCGBDay2024.png\": \"./src/images/cards/LioraTCGBDay2024.png\",\n\t\"./Liora_CFG.png\": \"./src/images/cards/Liora_CFG.png\",\n\t\"./Liora_Valkyrie_of_Yore.png\": \"./src/images/cards/Liora_Valkyrie_of_Yore.png\",\n\t\"./Liora_Walkyria_-_Pursuer_of_Fate.png\": \"./src/images/cards/Liora_Walkyria_-_Pursuer_of_Fate.png\",\n\t\"./Liora_Walkyria_Most_Youngest_and_Most_Seiso_ValkyrieSummer.png\": \"./src/images/cards/Liora_Walkyria_Most_Youngest_and_Most_Seiso_ValkyrieSummer.png\",\n\t\"./Lioras_Gambit.png\": \"./src/images/cards/Lioras_Gambit.png\",\n\t\"./Palwall.png\": \"./src/images/cards/Palwall.png\",\n\t\"./SPOILER_TCG-Liora-edition-RRR.png\": \"./src/images/cards/SPOILER_TCG-Liora-edition-RRR.png\",\n\t\"./SPOILER_TCG-Liora-edition-SP.png\": \"./src/images/cards/SPOILER_TCG-Liora-edition-SP.png\",\n\t\"./Screenshot_20240729_051325_Gallery.jpg\": \"./src/images/cards/Screenshot_20240729_051325_Gallery.jpg\",\n\t\"./TCG.png\": \"./src/images/cards/TCG.png\",\n\t\"./TCG_B.png\": \"./src/images/cards/TCG_B.png\",\n\t\"./TCG_Lioldge.png\": \"./src/images/cards/TCG_Lioldge.png\",\n\t\"./aphantasia-tcg.png\": \"./src/images/cards/aphantasia-tcg.png\",\n\t\"./arthritic_hip_TCG.png\": \"./src/images/cards/arthritic_hip_TCG.png\",\n\t\"./crab-tcg.png\": \"./src/images/cards/crab-tcg.png\",\n\t\"./crowd_control_valk_TCG.png\": \"./src/images/cards/crowd_control_valk_TCG.png\",\n\t\"./gift_of_hopepng.png\": \"./src/images/cards/gift_of_hopepng.png\",\n\t\"./image.png\": \"./src/images/cards/image.png\",\n\t\"./liora_Grand_Archive.png\": \"./src/images/cards/liora_Grand_Archive.png\",\n\t\"./liora_card.png\": \"./src/images/cards/liora_card.png\",\n\t\"./lioratcg.png\": \"./src/images/cards/lioratcg.png\",\n\t\"./saul_tcg.png\": \"./src/images/cards/saul_tcg.png\",\n\t\"./wiowa_tcg.png\": \"./src/images/cards/wiowa_tcg.png\"\n};\n\n\nfunction webpackContext(req) {\n\tvar id = webpackContextResolve(req);\n\treturn __webpack_require__(id);\n}\nfunction webpackContextResolve(req) {\n\tif(!__webpack_require__.o(map, req)) {\n\t\tvar e = new Error(\"Cannot find module '\" + req + \"'\");\n\t\te.code = 'MODULE_NOT_FOUND';\n\t\tthrow e;\n\t}\n\treturn map[req];\n}\nwebpackContext.keys = function webpackContextKeys() {\n\treturn Object.keys(map);\n};\nwebpackContext.resolve = webpackContextResolve;\nmodule.exports = webpackContext;\nwebpackContext.id = \"./src/images/cards sync recursive ^\\\\.\\\\/.*$\";\n\n//# sourceURL=webpack://vnu-booster-pack-opening/./src/images/cards/_sync_^\\.\\/.*$?");
 
 /***/ })
 
