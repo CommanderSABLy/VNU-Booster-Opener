@@ -38,7 +38,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, `body {\r\n    margin: 0;\r\n    height: 100vh;\r\n    width: 100vw;\r\n    overflow: hidden;\r\n    background: linear-gradient(#e0115f, #260244);\r\n}\r\n\r\n.body h1 {\r\n    text-align: center;\r\n    font-size: 5vh;\r\n    font-family: Arial, Helvetica, sans-serif;\r\n    color: white;\r\n    margin-bottom: 0;\r\n}\r\n\r\n.card-container {\r\n    display: grid;\r\n    width: 100vw;\r\n    justify-content: space-around;\r\n    padding-top: 0;\r\n}\r\n\r\n.card {\r\n    margin: auto;\r\n}\r\n\r\n.card:hover {\r\n    transform: scale(1.5);\r\n}\r\n\r\n.pack {\r\n    display: block;\r\n    margin-left: auto;\r\n    margin-right: auto;\r\n    width: 11vw;\r\n    bottom: 0;\r\n    transform: translateY(50%);\r\n}\r\n\r\n.fullpage {\r\n    display: none;\r\n    position: absolute;\r\n    z-index: 9999;\r\n    top: 0;\r\n    left: 0;\r\n    width: 100vw;\r\n    height: 100vh;\r\n    background-size: contain;\r\n    background-repeat: no-repeat no-repeat;\r\n    background-position: center center;\r\n    background-color: black;\r\n}\r\n\r\n.pack-opening h1{\r\n    font-size: 7vh;\r\n    height: 7vh;\r\n    color: white;\r\n    padding: 0;\r\n    margin-bottom: 3vh;\r\n}\r\n\r\n.fullimage {\r\n    display: block;\r\n    margin-left: auto;\r\n    margin-right: auto;\r\n    margin-top: auto;\r\n    margin-bottom: auto;\r\n}\r\n\r\n.full-pack {\r\n    max-height: 80vh;\r\n    max-width: 95vw;\r\n    display: block;\r\n    margin-left: auto;\r\n    margin-right: auto;\r\n}\r\n\r\n.full-pack:hover {\r\n    animation: wobble 1s;\r\n    animation-iteration-count: infinite;\r\n}\r\n\r\n.pack-opening {\r\n    display: block;\r\n    position: absolute;\r\n    z-index: 9999;\r\n    top: 0;\r\n    left: 0;\r\n    width: 100vw;\r\n    height: 100vh;\r\n    background-size: auto 110vh;\r\n    background-repeat: repeat no-repeat;\r\n    background-position: center center;\r\n    background-color: black;\r\n}\r\n\r\n.same-pack{\r\n    display: flex;\r\n    margin-top: 2.5vh;\r\n    justify-content: center;\r\n}\r\n\r\n.same-pack button{\r\n    color: white;\r\n    font-size: 3vh;\r\n    font-family: Arial, Helvetica, sans-serif;\r\n    background-color: #0d93ca;\r\n    border-radius: 8px;\r\n    border: none;\r\n    padding: 1rem;\r\n}\r\n\r\n@keyframes wobble {\r\n    12.5% {\r\n      transform: rotate(5deg);\r\n    }\r\n    25% {\r\n      transform: rotate(-5deg);\r\n    }\r\n    37.5% {\r\n      transform: rotate(5deg);\r\n    }\r\n    50% {\r\n        transform: rotate(-5deg);\r\n    }\r\n    62.5% {\r\n        transform: rotate(5deg);\r\n    }\r\n    75% {\r\n      transform: rotate(0deg);\r\n    }\r\n  }\r\n\r\n  @media (orientation: landscape) {\r\n    .card-container {\r\n        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;\r\n        grid-template-rows: 1fr 1fr;\r\n        row-gap: 5vh;\r\n        padding-top: 5vh;\r\n    }\r\n\r\n    .card {\r\n        width: 10vw;\r\n        height: 13.97vw;\r\n    }\r\n\r\n    .fullimage {\r\n        height: 100vh;\r\n        max-width: 100vw;\r\n    }\r\n}\r\n\r\n@media (orientation: portrait) {\r\n    .card-container {\r\n        grid-template-columns: 1fr 1fr;\r\n        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;\r\n        row-gap: 2vh;\r\n        padding-top: 0;\r\n    }\r\n\r\n    .card {\r\n        width: 10vh;\r\n        height: 13.97vh;\r\n    }\r\n\r\n    .fullimage {\r\n        max-height: 100vh;\r\n        width: 100vw;\r\n    }\r\n}`, \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://vnu-booster-pack-opening/./src/App.css?./node_modules/css-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, `body {\r\n    margin: 0;\r\n    height: 100vh;\r\n    width: 100vw;\r\n    overflow: hidden;\r\n    background: linear-gradient(#e0115f, #260244);\r\n}\r\n\r\n.body h1 {\r\n    text-align: center;\r\n    font-size: 5vh;\r\n    font-family: Arial, Helvetica, sans-serif;\r\n    color: white;\r\n    margin-bottom: 0;\r\n}\r\n\r\n.card-container {\r\n    display: grid;\r\n    width: 100vw;\r\n    justify-content: space-around;\r\n    padding-top: 0;\r\n}\r\n\r\n.card {\r\n    margin: auto;\r\n}\r\n\r\n.card:hover {\r\n    transform: scale(1.5);\r\n}\r\n\r\n.pack {\r\n    display: block;\r\n    margin-left: auto;\r\n    margin-right: auto;\r\n    width: 11vw;\r\n    bottom: 0;\r\n    transform: translateY(50%);\r\n}\r\n\r\n.fullpage {\r\n    display: none;\r\n    position: absolute;\r\n    z-index: 9999;\r\n    top: 0;\r\n    left: 0;\r\n    width: 100vw;\r\n    height: 100vh;\r\n    background-size: contain;\r\n    background-repeat: no-repeat no-repeat;\r\n    background-position: center center;\r\n    background-color: black;\r\n}\r\n\r\n.pack-opening h1{\r\n    font-size: 7vh;\r\n    height: 7vh;\r\n    color: white;\r\n    padding: 0;\r\n    margin-bottom: 3vh;\r\n}\r\n\r\n.fullimage {\r\n    display: block;\r\n    margin-left: auto;\r\n    margin-right: auto;\r\n    margin-top: auto;\r\n    margin-bottom: auto;\r\n}\r\n\r\n.full-pack {\r\n    max-height: 80vh;\r\n    max-width: 95vw;\r\n    display: block;\r\n    margin-left: auto;\r\n    margin-right: auto;\r\n}\r\n\r\n.full-pack:hover {\r\n    animation: wobble 1s;\r\n    animation-iteration-count: infinite;\r\n}\r\n\r\n.pack-opening {\r\n    display: block;\r\n    position: absolute;\r\n    z-index: 9999;\r\n    top: 0;\r\n    left: 0;\r\n    width: 100vw;\r\n    height: 100vh;\r\n    background-size: auto 110vh;\r\n    background-repeat: repeat no-repeat;\r\n    background-position: center center;\r\n    background-color: black;\r\n}\r\n\r\n.same-pack{\r\n    display: flex;\r\n    margin-top: 2.5vh;\r\n    justify-content: center;\r\n}\r\n\r\n.same-pack button{\r\n    color: white;\r\n    font-size: 3vh;\r\n    font-family: Arial, Helvetica, sans-serif;\r\n    background-color: #0d93ca;\r\n    border-radius: 8px;\r\n    border: none;\r\n    padding: 1rem;\r\n}\r\n\r\n@keyframes wobble {\r\n    12.5% {\r\n      transform: rotate(5deg);\r\n    }\r\n    25% {\r\n      transform: rotate(-5deg);\r\n    }\r\n    37.5% {\r\n      transform: rotate(5deg);\r\n    }\r\n    50% {\r\n        transform: rotate(-5deg);\r\n    }\r\n    62.5% {\r\n        transform: rotate(5deg);\r\n    }\r\n    75% {\r\n      transform: rotate(0deg);\r\n    }\r\n  }\r\n\r\n  @media (orientation: landscape) {\r\n    .card-container {\r\n        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;\r\n        grid-template-rows: 1fr 1fr;\r\n        row-gap: 5vh;\r\n        padding-top: 5vh;\r\n    }\r\n\r\n    .card {\r\n        width: 10vw;\r\n        height: 13.97vw;\r\n    }\r\n\r\n    .fullimage {\r\n        height: 100vh;\r\n        max-width: 100vw;\r\n    }\r\n}\r\n\r\n@media (orientation: portrait) {\r\n    body {\r\n        overflow-y: visible;\r\n    }\r\n    \r\n    .card-container {\r\n        grid-template-columns: 1fr 1fr;\r\n        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;\r\n        row-gap: 2vh;\r\n        padding-top: 0;\r\n    }\r\n\r\n    .card {\r\n        width: 10vh;\r\n        height: 13.97vh;\r\n    }\r\n\r\n    .fullimage {\r\n        max-height: 100vh;\r\n        width: 100vw;\r\n    }\r\n}`, \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://vnu-booster-pack-opening/./src/App.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -240,344 +240,696 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 /***/ }),
 
-/***/ "./src/images/cards/3am_Karaoke.png":
-/*!******************************************!*\
-  !*** ./src/images/cards/3am_Karaoke.png ***!
-  \******************************************/
+/***/ "./src/images/cards/acotan_liora_gala_valkyrie.png":
+/*!*********************************************************!*\
+  !*** ./src/images/cards/acotan_liora_gala_valkyrie.png ***!
+  \*********************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"6e47514e255e044fd0df8b92e235cefe.png\");\n\n//# sourceURL=webpack://vnu-booster-pack-opening/./src/images/cards/3am_Karaoke.png?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"626999ac72b8e39d3a3574e858447667.png\");\n\n//# sourceURL=webpack://vnu-booster-pack-opening/./src/images/cards/acotan_liora_gala_valkyrie.png?");
 
 /***/ }),
 
-/***/ "./src/images/cards/Agent_XI_of_Justice_Liora.png":
-/*!********************************************************!*\
-  !*** ./src/images/cards/Agent_XI_of_Justice_Liora.png ***!
-  \********************************************************/
+/***/ "./src/images/cards/acotan_liora_gala_valkyrie_foil.png":
+/*!**************************************************************!*\
+  !*** ./src/images/cards/acotan_liora_gala_valkyrie_foil.png ***!
+  \**************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"4651826e02882c1849429ef5352f13e9.png\");\n\n//# sourceURL=webpack://vnu-booster-pack-opening/./src/images/cards/Agent_XI_of_Justice_Liora.png?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"f664a5743cccee4d5b3aa0c3a632f9d3.png\");\n\n//# sourceURL=webpack://vnu-booster-pack-opening/./src/images/cards/acotan_liora_gala_valkyrie_foil.png?");
 
 /***/ }),
 
-/***/ "./src/images/cards/Car_Liora.png":
-/*!****************************************!*\
-  !*** ./src/images/cards/Car_Liora.png ***!
-  \****************************************/
+/***/ "./src/images/cards/acraepheus_gun_plakryie.png":
+/*!******************************************************!*\
+  !*** ./src/images/cards/acraepheus_gun_plakryie.png ***!
+  \******************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"addbb1a22ab6f2de96f2ad19d7d670ea.png\");\n\n//# sourceURL=webpack://vnu-booster-pack-opening/./src/images/cards/Car_Liora.png?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"1870e7b7be0c1d1acf23bd3ea9751e2c.png\");\n\n//# sourceURL=webpack://vnu-booster-pack-opening/./src/images/cards/acraepheus_gun_plakryie.png?");
 
 /***/ }),
 
-/***/ "./src/images/cards/GunPla-kyrie.png":
-/*!*******************************************!*\
-  !*** ./src/images/cards/GunPla-kyrie.png ***!
-  \*******************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"1870e7b7be0c1d1acf23bd3ea9751e2c.png\");\n\n//# sourceURL=webpack://vnu-booster-pack-opening/./src/images/cards/GunPla-kyrie.png?");
-
-/***/ }),
-
-/***/ "./src/images/cards/IMG_0308.png":
-/*!***************************************!*\
-  !*** ./src/images/cards/IMG_0308.png ***!
-  \***************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"b353505049ae322c2ee4d7e1576f613a.png\");\n\n//# sourceURL=webpack://vnu-booster-pack-opening/./src/images/cards/IMG_0308.png?");
-
-/***/ }),
-
-/***/ "./src/images/cards/JetLioraCard.png":
-/*!*******************************************!*\
-  !*** ./src/images/cards/JetLioraCard.png ***!
-  \*******************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"30e0136dbffcf268afade2c5d2b32d58.png\");\n\n//# sourceURL=webpack://vnu-booster-pack-opening/./src/images/cards/JetLioraCard.png?");
-
-/***/ }),
-
-/***/ "./src/images/cards/Lioopa.png":
-/*!*************************************!*\
-  !*** ./src/images/cards/Lioopa.png ***!
-  \*************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"b559b23a2dad781445efc5561ac6a014.png\");\n\n//# sourceURL=webpack://vnu-booster-pack-opening/./src/images/cards/Lioopa.png?");
-
-/***/ }),
-
-/***/ "./src/images/cards/LioraTCGBDay2024.png":
-/*!***********************************************!*\
-  !*** ./src/images/cards/LioraTCGBDay2024.png ***!
-  \***********************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"c29ac1e780dec0621ea30c55e2facad1.png\");\n\n//# sourceURL=webpack://vnu-booster-pack-opening/./src/images/cards/LioraTCGBDay2024.png?");
-
-/***/ }),
-
-/***/ "./src/images/cards/Liora_CFG.png":
-/*!****************************************!*\
-  !*** ./src/images/cards/Liora_CFG.png ***!
-  \****************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"1c095436797d2c88e11499efea73f41b.png\");\n\n//# sourceURL=webpack://vnu-booster-pack-opening/./src/images/cards/Liora_CFG.png?");
-
-/***/ }),
-
-/***/ "./src/images/cards/Liora_Valkyrie_of_Yore.png":
+/***/ "./src/images/cards/astray_liora_the_teary.png":
 /*!*****************************************************!*\
-  !*** ./src/images/cards/Liora_Valkyrie_of_Yore.png ***!
+  !*** ./src/images/cards/astray_liora_the_teary.png ***!
   \*****************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"9b4081da7550d6ceae14dee3b9380e04.png\");\n\n//# sourceURL=webpack://vnu-booster-pack-opening/./src/images/cards/Liora_Valkyrie_of_Yore.png?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"4a138e571561869ea0c659ac674d6dae.png\");\n\n//# sourceURL=webpack://vnu-booster-pack-opening/./src/images/cards/astray_liora_the_teary.png?");
 
 /***/ }),
 
-/***/ "./src/images/cards/Liora_Walkyria_-_Pursuer_of_Fate.png":
-/*!***************************************************************!*\
-  !*** ./src/images/cards/Liora_Walkyria_-_Pursuer_of_Fate.png ***!
-  \***************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"1d5b10225758e07bc0ac513c0b920048.png\");\n\n//# sourceURL=webpack://vnu-booster-pack-opening/./src/images/cards/Liora_Walkyria_-_Pursuer_of_Fate.png?");
-
-/***/ }),
-
-/***/ "./src/images/cards/Liora_Walkyria_Most_Youngest_and_Most_Seiso_ValkyrieSummer.png":
-/*!*****************************************************************************************!*\
-  !*** ./src/images/cards/Liora_Walkyria_Most_Youngest_and_Most_Seiso_ValkyrieSummer.png ***!
-  \*****************************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"1ee0afda829058bfbd848f7fe5b167d3.png\");\n\n//# sourceURL=webpack://vnu-booster-pack-opening/./src/images/cards/Liora_Walkyria_Most_Youngest_and_Most_Seiso_ValkyrieSummer.png?");
-
-/***/ }),
-
-/***/ "./src/images/cards/Lioras_Gambit.png":
-/*!********************************************!*\
-  !*** ./src/images/cards/Lioras_Gambit.png ***!
-  \********************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"1a9171ebe28694ac4af17120b30fb50b.png\");\n\n//# sourceURL=webpack://vnu-booster-pack-opening/./src/images/cards/Lioras_Gambit.png?");
-
-/***/ }),
-
-/***/ "./src/images/cards/Palwall.png":
-/*!**************************************!*\
-  !*** ./src/images/cards/Palwall.png ***!
-  \**************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"8fddb7f6ea9f2923350026c080a51f5f.png\");\n\n//# sourceURL=webpack://vnu-booster-pack-opening/./src/images/cards/Palwall.png?");
-
-/***/ }),
-
-/***/ "./src/images/cards/SPOILER_TCG-Liora-edition-RRR.png":
+/***/ "./src/images/cards/claf_palky_the_first_palkyrie.png":
 /*!************************************************************!*\
-  !*** ./src/images/cards/SPOILER_TCG-Liora-edition-RRR.png ***!
+  !*** ./src/images/cards/claf_palky_the_first_palkyrie.png ***!
   \************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"626999ac72b8e39d3a3574e858447667.png\");\n\n//# sourceURL=webpack://vnu-booster-pack-opening/./src/images/cards/SPOILER_TCG-Liora-edition-RRR.png?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"f90312e95ea768284a876076afe05b31.png\");\n\n//# sourceURL=webpack://vnu-booster-pack-opening/./src/images/cards/claf_palky_the_first_palkyrie.png?");
 
 /***/ }),
 
-/***/ "./src/images/cards/SPOILER_TCG-Liora-edition-SP.png":
+/***/ "./src/images/cards/darena_day_at_the_track_liora_walkyria.png":
+/*!*********************************************************************!*\
+  !*** ./src/images/cards/darena_day_at_the_track_liora_walkyria.png ***!
+  \*********************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"1c095436797d2c88e11499efea73f41b.png\");\n\n//# sourceURL=webpack://vnu-booster-pack-opening/./src/images/cards/darena_day_at_the_track_liora_walkyria.png?");
+
+/***/ }),
+
+/***/ "./src/images/cards/darena_soaring_valykrie.png":
+/*!******************************************************!*\
+  !*** ./src/images/cards/darena_soaring_valykrie.png ***!
+  \******************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"95ea0e3ea43be89456eb46926faf6a51.png\");\n\n//# sourceURL=webpack://vnu-booster-pack-opening/./src/images/cards/darena_soaring_valykrie.png?");
+
+/***/ }),
+
+/***/ "./src/images/cards/doctorfaust_pen_color_stonks.png":
 /*!***********************************************************!*\
-  !*** ./src/images/cards/SPOILER_TCG-Liora-edition-SP.png ***!
+  !*** ./src/images/cards/doctorfaust_pen_color_stonks.png ***!
   \***********************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"f664a5743cccee4d5b3aa0c3a632f9d3.png\");\n\n//# sourceURL=webpack://vnu-booster-pack-opening/./src/images/cards/SPOILER_TCG-Liora-edition-SP.png?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"bc3518c490a4d9ce92930fea31ae32ef.png\");\n\n//# sourceURL=webpack://vnu-booster-pack-opening/./src/images/cards/doctorfaust_pen_color_stonks.png?");
 
 /***/ }),
 
-/***/ "./src/images/cards/Screenshot_20240729_051325_Gallery.jpg":
+/***/ "./src/images/cards/druwinu_liora_comfykyria.png":
+/*!*******************************************************!*\
+  !*** ./src/images/cards/druwinu_liora_comfykyria.png ***!
+  \*******************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"cd53be6c5e12bae40fb7b6e74bd54f78.png\");\n\n//# sourceURL=webpack://vnu-booster-pack-opening/./src/images/cards/druwinu_liora_comfykyria.png?");
+
+/***/ }),
+
+/***/ "./src/images/cards/druwinu_liora_walkyria_most_youngest_and_most_seiso_valkyrie_summer.png":
+/*!**************************************************************************************************!*\
+  !*** ./src/images/cards/druwinu_liora_walkyria_most_youngest_and_most_seiso_valkyrie_summer.png ***!
+  \**************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"69616b75aea41c9bc279c40b838b8230.png\");\n\n//# sourceURL=webpack://vnu-booster-pack-opening/./src/images/cards/druwinu_liora_walkyria_most_youngest_and_most_seiso_valkyrie_summer.png?");
+
+/***/ }),
+
+/***/ "./src/images/cards/edwin_sadist_liora.png":
+/*!*************************************************!*\
+  !*** ./src/images/cards/edwin_sadist_liora.png ***!
+  \*************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"74a2d1d6b6d38e8cd65bc5ef699f83c3.png\");\n\n//# sourceURL=webpack://vnu-booster-pack-opening/./src/images/cards/edwin_sadist_liora.png?");
+
+/***/ }),
+
+/***/ "./src/images/cards/erik_tttt_yandere_liora.png":
+/*!******************************************************!*\
+  !*** ./src/images/cards/erik_tttt_yandere_liora.png ***!
+  \******************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"6fdf968e6636d0538f9d93ecf0e810b2.png\");\n\n//# sourceURL=webpack://vnu-booster-pack-opening/./src/images/cards/erik_tttt_yandere_liora.png?");
+
+/***/ }),
+
+/***/ "./src/images/cards/jetricson_agent_xi_of_justice_liora.png":
+/*!******************************************************************!*\
+  !*** ./src/images/cards/jetricson_agent_xi_of_justice_liora.png ***!
+  \******************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"4651826e02882c1849429ef5352f13e9.png\");\n\n//# sourceURL=webpack://vnu-booster-pack-opening/./src/images/cards/jetricson_agent_xi_of_justice_liora.png?");
+
+/***/ }),
+
+/***/ "./src/images/cards/jetricson_cheer_of_the_walkyr.png":
+/*!************************************************************!*\
+  !*** ./src/images/cards/jetricson_cheer_of_the_walkyr.png ***!
+  \************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"7fa0240809e2e6370de47a6961c1d100.png\");\n\n//# sourceURL=webpack://vnu-booster-pack-opening/./src/images/cards/jetricson_cheer_of_the_walkyr.png?");
+
+/***/ }),
+
+/***/ "./src/images/cards/jetricson_liora_valkyrie_of_yore.png":
+/*!***************************************************************!*\
+  !*** ./src/images/cards/jetricson_liora_valkyrie_of_yore.png ***!
+  \***************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"9b4081da7550d6ceae14dee3b9380e04.png\");\n\n//# sourceURL=webpack://vnu-booster-pack-opening/./src/images/cards/jetricson_liora_valkyrie_of_yore.png?");
+
+/***/ }),
+
+/***/ "./src/images/cards/jetricson_liora_walkyria_allwise.png":
+/*!***************************************************************!*\
+  !*** ./src/images/cards/jetricson_liora_walkyria_allwise.png ***!
+  \***************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"aa059c23f528fe315ce301df2804780e.png\");\n\n//# sourceURL=webpack://vnu-booster-pack-opening/./src/images/cards/jetricson_liora_walkyria_allwise.png?");
+
+/***/ }),
+
+/***/ "./src/images/cards/jetricson_liora_walkyria_devastate.png":
 /*!*****************************************************************!*\
-  !*** ./src/images/cards/Screenshot_20240729_051325_Gallery.jpg ***!
+  !*** ./src/images/cards/jetricson_liora_walkyria_devastate.png ***!
   \*****************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"6fdf968e6636d0538f9d93ecf0e810b2.jpg\");\n\n//# sourceURL=webpack://vnu-booster-pack-opening/./src/images/cards/Screenshot_20240729_051325_Gallery.jpg?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"37cb0d3e0254faa9e3e5a8a33492127f.png\");\n\n//# sourceURL=webpack://vnu-booster-pack-opening/./src/images/cards/jetricson_liora_walkyria_devastate.png?");
 
 /***/ }),
 
-/***/ "./src/images/cards/TCG.png":
-/*!**********************************!*\
-  !*** ./src/images/cards/TCG.png ***!
-  \**********************************/
+/***/ "./src/images/cards/jetricson_liora_walkyria_inciter.png":
+/*!***************************************************************!*\
+  !*** ./src/images/cards/jetricson_liora_walkyria_inciter.png ***!
+  \***************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"ef4db4b332abb5b11dcf0675825d4fb9.png\");\n\n//# sourceURL=webpack://vnu-booster-pack-opening/./src/images/cards/TCG.png?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"b7f55ffa2279ea0d541a5caee2690108.png\");\n\n//# sourceURL=webpack://vnu-booster-pack-opening/./src/images/cards/jetricson_liora_walkyria_inciter.png?");
 
 /***/ }),
 
-/***/ "./src/images/cards/TCG_B.png":
-/*!************************************!*\
-  !*** ./src/images/cards/TCG_B.png ***!
-  \************************************/
+/***/ "./src/images/cards/jetricson_liora_walkyria_prime.png":
+/*!*************************************************************!*\
+  !*** ./src/images/cards/jetricson_liora_walkyria_prime.png ***!
+  \*************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"cd53be6c5e12bae40fb7b6e74bd54f78.png\");\n\n//# sourceURL=webpack://vnu-booster-pack-opening/./src/images/cards/TCG_B.png?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"eb4b3601a3a4ab483a5e05927ccd7000.png\");\n\n//# sourceURL=webpack://vnu-booster-pack-opening/./src/images/cards/jetricson_liora_walkyria_prime.png?");
 
 /***/ }),
 
-/***/ "./src/images/cards/TCG_Lioldge.png":
-/*!******************************************!*\
-  !*** ./src/images/cards/TCG_Lioldge.png ***!
-  \******************************************/
+/***/ "./src/images/cards/jetricson_liora_walkyria_pursuer_of_fate.png":
+/*!***********************************************************************!*\
+  !*** ./src/images/cards/jetricson_liora_walkyria_pursuer_of_fate.png ***!
+  \***********************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"95ff292dfb5f7eb540de4c4a196cbe0d.png\");\n\n//# sourceURL=webpack://vnu-booster-pack-opening/./src/images/cards/TCG_Lioldge.png?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"63d4cf2ab57f96d197b90c91425376b9.png\");\n\n//# sourceURL=webpack://vnu-booster-pack-opening/./src/images/cards/jetricson_liora_walkyria_pursuer_of_fate.png?");
 
 /***/ }),
 
-/***/ "./src/images/cards/aphantasia-tcg.png":
-/*!*********************************************!*\
-  !*** ./src/images/cards/aphantasia-tcg.png ***!
-  \*********************************************/
+/***/ "./src/images/cards/jetricson_lioras_gambit.png":
+/*!******************************************************!*\
+  !*** ./src/images/cards/jetricson_lioras_gambit.png ***!
+  \******************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"56f8b4b600a328b14896884d919c8d48.png\");\n\n//# sourceURL=webpack://vnu-booster-pack-opening/./src/images/cards/aphantasia-tcg.png?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"1a9171ebe28694ac4af17120b30fb50b.png\");\n\n//# sourceURL=webpack://vnu-booster-pack-opening/./src/images/cards/jetricson_lioras_gambit.png?");
 
 /***/ }),
 
-/***/ "./src/images/cards/arthritic_hip_TCG.png":
-/*!************************************************!*\
-  !*** ./src/images/cards/arthritic_hip_TCG.png ***!
-  \************************************************/
+/***/ "./src/images/cards/jetricson_paradise_of_walkyr_valhalla.png":
+/*!********************************************************************!*\
+  !*** ./src/images/cards/jetricson_paradise_of_walkyr_valhalla.png ***!
+  \********************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"547980e024b960ecf9b6e037ffc311f3.png\");\n\n//# sourceURL=webpack://vnu-booster-pack-opening/./src/images/cards/arthritic_hip_TCG.png?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"47611b40e20e39ce28aa06f528ba4ac4.png\");\n\n//# sourceURL=webpack://vnu-booster-pack-opening/./src/images/cards/jetricson_paradise_of_walkyr_valhalla.png?");
 
 /***/ }),
 
-/***/ "./src/images/cards/crab-tcg.png":
-/*!***************************************!*\
-  !*** ./src/images/cards/crab-tcg.png ***!
-  \***************************************/
+/***/ "./src/images/cards/jetricson_stories_of_the_walkyr.png":
+/*!**************************************************************!*\
+  !*** ./src/images/cards/jetricson_stories_of_the_walkyr.png ***!
+  \**************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"2540725727d509cc855247ce640648df.png\");\n\n//# sourceURL=webpack://vnu-booster-pack-opening/./src/images/cards/crab-tcg.png?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"cba144db4cc1b620b3a6ec8361492984.png\");\n\n//# sourceURL=webpack://vnu-booster-pack-opening/./src/images/cards/jetricson_stories_of_the_walkyr.png?");
 
 /***/ }),
 
-/***/ "./src/images/cards/crowd_control_valk_TCG.png":
-/*!*****************************************************!*\
-  !*** ./src/images/cards/crowd_control_valk_TCG.png ***!
-  \*****************************************************/
+/***/ "./src/images/cards/jetricson_the_walkyrs_web_of_suspicion.png":
+/*!*********************************************************************!*\
+  !*** ./src/images/cards/jetricson_the_walkyrs_web_of_suspicion.png ***!
+  \*********************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"dac7f3538b93e5f3f7bcb88d0c6f3ea7.png\");\n\n//# sourceURL=webpack://vnu-booster-pack-opening/./src/images/cards/crowd_control_valk_TCG.png?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"c678ad3ceec2ec776ec9f53024ab1b34.png\");\n\n//# sourceURL=webpack://vnu-booster-pack-opening/./src/images/cards/jetricson_the_walkyrs_web_of_suspicion.png?");
 
 /***/ }),
 
-/***/ "./src/images/cards/gift_of_hopepng.png":
+/***/ "./src/images/cards/jetricson_walkyr_anoknight.png":
+/*!*********************************************************!*\
+  !*** ./src/images/cards/jetricson_walkyr_anoknight.png ***!
+  \*********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"7aebd360d3804498be8407576c4e1956.png\");\n\n//# sourceURL=webpack://vnu-booster-pack-opening/./src/images/cards/jetricson_walkyr_anoknight.png?");
+
+/***/ }),
+
+/***/ "./src/images/cards/jetricson_walkyr_change_alvitr.png":
+/*!*************************************************************!*\
+  !*** ./src/images/cards/jetricson_walkyr_change_alvitr.png ***!
+  \*************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"582b4c2215cad2e3b68bc60a539ddcdc.png\");\n\n//# sourceURL=webpack://vnu-booster-pack-opening/./src/images/cards/jetricson_walkyr_change_alvitr.png?");
+
+/***/ }),
+
+/***/ "./src/images/cards/jetricson_walkyr_change_herja.png":
+/*!************************************************************!*\
+  !*** ./src/images/cards/jetricson_walkyr_change_herja.png ***!
+  \************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"a6ca585b78a9c7c1033c00478d41dbd7.png\");\n\n//# sourceURL=webpack://vnu-booster-pack-opening/./src/images/cards/jetricson_walkyr_change_herja.png?");
+
+/***/ }),
+
+/***/ "./src/images/cards/jetricson_walkyr_change_sigdrifa.png":
+/*!***************************************************************!*\
+  !*** ./src/images/cards/jetricson_walkyr_change_sigdrifa.png ***!
+  \***************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"c834a2178bacb17a5562f116c3b259bc.png\");\n\n//# sourceURL=webpack://vnu-booster-pack-opening/./src/images/cards/jetricson_walkyr_change_sigdrifa.png?");
+
+/***/ }),
+
+/***/ "./src/images/cards/jetricson_walkyr_fankyrie.png":
+/*!********************************************************!*\
+  !*** ./src/images/cards/jetricson_walkyr_fankyrie.png ***!
+  \********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"3aeff26de6530f78389dc8d4547e8c31.png\");\n\n//# sourceURL=webpack://vnu-booster-pack-opening/./src/images/cards/jetricson_walkyr_fankyrie.png?");
+
+/***/ }),
+
+/***/ "./src/images/cards/jetricson_walkyr_guerilla.png":
+/*!********************************************************!*\
+  !*** ./src/images/cards/jetricson_walkyr_guerilla.png ***!
+  \********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"dd4fd90c2727b26e7fbc81f82e218a6e.png\");\n\n//# sourceURL=webpack://vnu-booster-pack-opening/./src/images/cards/jetricson_walkyr_guerilla.png?");
+
+/***/ }),
+
+/***/ "./src/images/cards/jetricson_walkyr_palherjar.png":
+/*!*********************************************************!*\
+  !*** ./src/images/cards/jetricson_walkyr_palherjar.png ***!
+  \*********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"a8145ec79e7c0f6ba02f7d5f64d029a8.png\");\n\n//# sourceURL=webpack://vnu-booster-pack-opening/./src/images/cards/jetricson_walkyr_palherjar.png?");
+
+/***/ }),
+
+/***/ "./src/images/cards/jetricson_walkyr_palkyrie.png":
+/*!********************************************************!*\
+  !*** ./src/images/cards/jetricson_walkyr_palkyrie.png ***!
+  \********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"faba1897d9589b310d3fb777e64f8f69.png\");\n\n//# sourceURL=webpack://vnu-booster-pack-opening/./src/images/cards/jetricson_walkyr_palkyrie.png?");
+
+/***/ }),
+
+/***/ "./src/images/cards/jetricson_walkyr_rebuttal.png":
+/*!********************************************************!*\
+  !*** ./src/images/cards/jetricson_walkyr_rebuttal.png ***!
+  \********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"209c7df8ebea0511f654ac535133f6f5.png\");\n\n//# sourceURL=webpack://vnu-booster-pack-opening/./src/images/cards/jetricson_walkyr_rebuttal.png?");
+
+/***/ }),
+
+/***/ "./src/images/cards/jetricson_walkyr_support_foil.png":
+/*!************************************************************!*\
+  !*** ./src/images/cards/jetricson_walkyr_support_foil.png ***!
+  \************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"3151c10c823793604fdc0fad7cebd9fd.png\");\n\n//# sourceURL=webpack://vnu-booster-pack-opening/./src/images/cards/jetricson_walkyr_support_foil.png?");
+
+/***/ }),
+
+/***/ "./src/images/cards/jetricson_walkyr_support_onekko.png":
+/*!**************************************************************!*\
+  !*** ./src/images/cards/jetricson_walkyr_support_onekko.png ***!
+  \**************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"8b3790384388d8af735c09e6df5bc7ba.png\");\n\n//# sourceURL=webpack://vnu-booster-pack-opening/./src/images/cards/jetricson_walkyr_support_onekko.png?");
+
+/***/ }),
+
+/***/ "./src/images/cards/jetricson_walkyr_united.png":
+/*!******************************************************!*\
+  !*** ./src/images/cards/jetricson_walkyr_united.png ***!
+  \******************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"bd291944b0173afb1347376cd900f2c6.png\");\n\n//# sourceURL=webpack://vnu-booster-pack-opening/./src/images/cards/jetricson_walkyr_united.png?");
+
+/***/ }),
+
+/***/ "./src/images/cards/jetricson_walkyr_whalekyrie.png":
+/*!**********************************************************!*\
+  !*** ./src/images/cards/jetricson_walkyr_whalekyrie.png ***!
+  \**********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"1683b0f7664c0e013f3549d90bda9308.png\");\n\n//# sourceURL=webpack://vnu-booster-pack-opening/./src/images/cards/jetricson_walkyr_whalekyrie.png?");
+
+/***/ }),
+
+/***/ "./src/images/cards/jetricson_wet_tshirt_liora.png":
+/*!*********************************************************!*\
+  !*** ./src/images/cards/jetricson_wet_tshirt_liora.png ***!
+  \*********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"30e0136dbffcf268afade2c5d2b32d58.png\");\n\n//# sourceURL=webpack://vnu-booster-pack-opening/./src/images/cards/jetricson_wet_tshirt_liora.png?");
+
+/***/ }),
+
+/***/ "./src/images/cards/kai_lior_old_walkingstickyria.png":
+/*!************************************************************!*\
+  !*** ./src/images/cards/kai_lior_old_walkingstickyria.png ***!
+  \************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"95ff292dfb5f7eb540de4c4a196cbe0d.png\");\n\n//# sourceURL=webpack://vnu-booster-pack-opening/./src/images/cards/kai_lior_old_walkingstickyria.png?");
+
+/***/ }),
+
+/***/ "./src/images/cards/lato_aphantasia.png":
 /*!**********************************************!*\
-  !*** ./src/images/cards/gift_of_hopepng.png ***!
+  !*** ./src/images/cards/lato_aphantasia.png ***!
   \**********************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"aad180440e0ffe5880e155beb5441fff.png\");\n\n//# sourceURL=webpack://vnu-booster-pack-opening/./src/images/cards/gift_of_hopepng.png?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"56f8b4b600a328b14896884d919c8d48.png\");\n\n//# sourceURL=webpack://vnu-booster-pack-opening/./src/images/cards/lato_aphantasia.png?");
 
 /***/ }),
 
-/***/ "./src/images/cards/image.png":
-/*!************************************!*\
-  !*** ./src/images/cards/image.png ***!
-  \************************************/
+/***/ "./src/images/cards/lato_the_crab_on_lioras_thigh.png":
+/*!************************************************************!*\
+  !*** ./src/images/cards/lato_the_crab_on_lioras_thigh.png ***!
+  \************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"4a138e571561869ea0c659ac674d6dae.png\");\n\n//# sourceURL=webpack://vnu-booster-pack-opening/./src/images/cards/image.png?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"2540725727d509cc855247ce640648df.png\");\n\n//# sourceURL=webpack://vnu-booster-pack-opening/./src/images/cards/lato_the_crab_on_lioras_thigh.png?");
 
 /***/ }),
 
-/***/ "./src/images/cards/liora_Grand_Archive.png":
-/*!**************************************************!*\
-  !*** ./src/images/cards/liora_Grand_Archive.png ***!
-  \**************************************************/
+/***/ "./src/images/cards/master117_wiowa_of_april_1st.png":
+/*!***********************************************************!*\
+  !*** ./src/images/cards/master117_wiowa_of_april_1st.png ***!
+  \***********************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"95ea0e3ea43be89456eb46926faf6a51.png\");\n\n//# sourceURL=webpack://vnu-booster-pack-opening/./src/images/cards/liora_Grand_Archive.png?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"437f4df24614cb101566d6739c35c1ee.png\");\n\n//# sourceURL=webpack://vnu-booster-pack-opening/./src/images/cards/master117_wiowa_of_april_1st.png?");
 
 /***/ }),
 
-/***/ "./src/images/cards/liora_card.png":
-/*!*****************************************!*\
-  !*** ./src/images/cards/liora_card.png ***!
-  \*****************************************/
+/***/ "./src/images/cards/micah_chibi_lio_booty.png":
+/*!****************************************************!*\
+  !*** ./src/images/cards/micah_chibi_lio_booty.png ***!
+  \****************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"74a2d1d6b6d38e8cd65bc5ef699f83c3.png\");\n\n//# sourceURL=webpack://vnu-booster-pack-opening/./src/images/cards/liora_card.png?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"33f5b5bf4fb7e226168aedbe931548a8.png\");\n\n//# sourceURL=webpack://vnu-booster-pack-opening/./src/images/cards/micah_chibi_lio_booty.png?");
 
 /***/ }),
 
-/***/ "./src/images/cards/lioratcg.png":
-/*!***************************************!*\
-  !*** ./src/images/cards/lioratcg.png ***!
-  \***************************************/
+/***/ "./src/images/cards/mimi_liorge_walkington.png":
+/*!*****************************************************!*\
+  !*** ./src/images/cards/mimi_liorge_walkington.png ***!
+  \*****************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"33f5b5bf4fb7e226168aedbe931548a8.png\");\n\n//# sourceURL=webpack://vnu-booster-pack-opening/./src/images/cards/lioratcg.png?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"ef4db4b332abb5b11dcf0675825d4fb9.png\");\n\n//# sourceURL=webpack://vnu-booster-pack-opening/./src/images/cards/mimi_liorge_walkington.png?");
 
 /***/ }),
 
-/***/ "./src/images/cards/saul_tcg.png":
-/*!***************************************!*\
-  !*** ./src/images/cards/saul_tcg.png ***!
-  \***************************************/
+/***/ "./src/images/cards/nate0095_palwall_defender_against_unseiso.png":
+/*!************************************************************************!*\
+  !*** ./src/images/cards/nate0095_palwall_defender_against_unseiso.png ***!
+  \************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"56ac5c956e23aad436247fc36fae51e9.png\");\n\n//# sourceURL=webpack://vnu-booster-pack-opening/./src/images/cards/saul_tcg.png?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"8fddb7f6ea9f2923350026c080a51f5f.png\");\n\n//# sourceURL=webpack://vnu-booster-pack-opening/./src/images/cards/nate0095_palwall_defender_against_unseiso.png?");
 
 /***/ }),
 
-/***/ "./src/images/cards/wiowa_tcg.png":
-/*!****************************************!*\
-  !*** ./src/images/cards/wiowa_tcg.png ***!
-  \****************************************/
+/***/ "./src/images/cards/nitelite_car_liora_and_s_food.png":
+/*!************************************************************!*\
+  !*** ./src/images/cards/nitelite_car_liora_and_s_food.png ***!
+  \************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"245c0823f76d8020db93bcfca05979b2.png\");\n\n//# sourceURL=webpack://vnu-booster-pack-opening/./src/images/cards/wiowa_tcg.png?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"addbb1a22ab6f2de96f2ad19d7d670ea.png\");\n\n//# sourceURL=webpack://vnu-booster-pack-opening/./src/images/cards/nitelite_car_liora_and_s_food.png?");
+
+/***/ }),
+
+/***/ "./src/images/cards/nitelite_lioopa_troopa.png":
+/*!*****************************************************!*\
+  !*** ./src/images/cards/nitelite_lioopa_troopa.png ***!
+  \*****************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"b559b23a2dad781445efc5561ac6a014.png\");\n\n//# sourceURL=webpack://vnu-booster-pack-opening/./src/images/cards/nitelite_lioopa_troopa.png?");
+
+/***/ }),
+
+/***/ "./src/images/cards/proswagonist_lgs_surprise.png":
+/*!********************************************************!*\
+  !*** ./src/images/cards/proswagonist_lgs_surprise.png ***!
+  \********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"c23f974b4f1b82a5845ef007985f158c.png\");\n\n//# sourceURL=webpack://vnu-booster-pack-opening/./src/images/cards/proswagonist_lgs_surprise.png?");
+
+/***/ }),
+
+/***/ "./src/images/cards/proswagonist_liora_the_nurse.png":
+/*!***********************************************************!*\
+  !*** ./src/images/cards/proswagonist_liora_the_nurse.png ***!
+  \***********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"3d07ceacf20792d7278fcb1aae0b0c2e.png\");\n\n//# sourceURL=webpack://vnu-booster-pack-opening/./src/images/cards/proswagonist_liora_the_nurse.png?");
+
+/***/ }),
+
+/***/ "./src/images/cards/proswagonist_liora_the_nurse_question_mark.png":
+/*!*************************************************************************!*\
+  !*** ./src/images/cards/proswagonist_liora_the_nurse_question_mark.png ***!
+  \*************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"7f3ffd228bd805b3cb7d3704c9caae3b.png\");\n\n//# sourceURL=webpack://vnu-booster-pack-opening/./src/images/cards/proswagonist_liora_the_nurse_question_mark.png?");
+
+/***/ }),
+
+/***/ "./src/images/cards/proswagonist_palkyries_dream.png":
+/*!***********************************************************!*\
+  !*** ./src/images/cards/proswagonist_palkyries_dream.png ***!
+  \***********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"0c66de9c6af4e06168e81b188a465fff.png\");\n\n//# sourceURL=webpack://vnu-booster-pack-opening/./src/images/cards/proswagonist_palkyries_dream.png?");
+
+/***/ }),
+
+/***/ "./src/images/cards/proswagonist_wake_of_the_walkyrie.png":
+/*!****************************************************************!*\
+  !*** ./src/images/cards/proswagonist_wake_of_the_walkyrie.png ***!
+  \****************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"fa173c7ce3e294ddfb288285be2a1984.png\");\n\n//# sourceURL=webpack://vnu-booster-pack-opening/./src/images/cards/proswagonist_wake_of_the_walkyrie.png?");
+
+/***/ }),
+
+/***/ "./src/images/cards/ramses_liora_valkyries_might.png":
+/*!***********************************************************!*\
+  !*** ./src/images/cards/ramses_liora_valkyries_might.png ***!
+  \***********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"1967d1988a1b03eadeaf249025928edb.png\");\n\n//# sourceURL=webpack://vnu-booster-pack-opening/./src/images/cards/ramses_liora_valkyries_might.png?");
+
+/***/ }),
+
+/***/ "./src/images/cards/ramses_pretty_magical_palkyrie_princess_wiowa.png":
+/*!****************************************************************************!*\
+  !*** ./src/images/cards/ramses_pretty_magical_palkyrie_princess_wiowa.png ***!
+  \****************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"94f363765a2585a6ae386afe94d6fa41.png\");\n\n//# sourceURL=webpack://vnu-booster-pack-opening/./src/images/cards/ramses_pretty_magical_palkyrie_princess_wiowa.png?");
+
+/***/ }),
+
+/***/ "./src/images/cards/sably_saul_crowd_control_valk_TCG.png":
+/*!****************************************************************!*\
+  !*** ./src/images/cards/sably_saul_crowd_control_valk_TCG.png ***!
+  \****************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"dac7f3538b93e5f3f7bcb88d0c6f3ea7.png\");\n\n//# sourceURL=webpack://vnu-booster-pack-opening/./src/images/cards/sably_saul_crowd_control_valk_TCG.png?");
+
+/***/ }),
+
+/***/ "./src/images/cards/sably_saul_saul_sleepy_palkyrie.png":
+/*!**************************************************************!*\
+  !*** ./src/images/cards/sably_saul_saul_sleepy_palkyrie.png ***!
+  \**************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"56ac5c956e23aad436247fc36fae51e9.png\");\n\n//# sourceURL=webpack://vnu-booster-pack-opening/./src/images/cards/sably_saul_saul_sleepy_palkyrie.png?");
+
+/***/ }),
+
+/***/ "./src/images/cards/sero_liora_emblem.png":
+/*!************************************************!*\
+  !*** ./src/images/cards/sero_liora_emblem.png ***!
+  \************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"17abb04f6490ee5ee17296550c5a297a.png\");\n\n//# sourceURL=webpack://vnu-booster-pack-opening/./src/images/cards/sero_liora_emblem.png?");
+
+/***/ }),
+
+/***/ "./src/images/cards/sero_liora_walkuma.png":
+/*!*************************************************!*\
+  !*** ./src/images/cards/sero_liora_walkuma.png ***!
+  \*************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"b88873329d131c7186a320b60ebd9d0b.png\");\n\n//# sourceURL=webpack://vnu-booster-pack-opening/./src/images/cards/sero_liora_walkuma.png?");
+
+/***/ }),
+
+/***/ "./src/images/cards/shycactus_bad_luck_liora.png":
+/*!*******************************************************!*\
+  !*** ./src/images/cards/shycactus_bad_luck_liora.png ***!
+  \*******************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"b353505049ae322c2ee4d7e1576f613a.png\");\n\n//# sourceURL=webpack://vnu-booster-pack-opening/./src/images/cards/shycactus_bad_luck_liora.png?");
+
+/***/ }),
+
+/***/ "./src/images/cards/tcgcleric_3am_karaoke.png":
+/*!****************************************************!*\
+  !*** ./src/images/cards/tcgcleric_3am_karaoke.png ***!
+  \****************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"6e47514e255e044fd0df8b92e235cefe.png\");\n\n//# sourceURL=webpack://vnu-booster-pack-opening/./src/images/cards/tcgcleric_3am_karaoke.png?");
+
+/***/ }),
+
+/***/ "./src/images/cards/tcgcleric_bedside_palkyrie.png":
+/*!*********************************************************!*\
+  !*** ./src/images/cards/tcgcleric_bedside_palkyrie.png ***!
+  \*********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"c29ac1e780dec0621ea30c55e2facad1.png\");\n\n//# sourceURL=webpack://vnu-booster-pack-opening/./src/images/cards/tcgcleric_bedside_palkyrie.png?");
+
+/***/ }),
+
+/***/ "./src/images/cards/xellotath_a_gift_of_hope.png":
+/*!*******************************************************!*\
+  !*** ./src/images/cards/xellotath_a_gift_of_hope.png ***!
+  \*******************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"aad180440e0ffe5880e155beb5441fff.png\");\n\n//# sourceURL=webpack://vnu-booster-pack-opening/./src/images/cards/xellotath_a_gift_of_hope.png?");
+
+/***/ }),
+
+/***/ "./src/images/cards/yunokage_walkyria_of_the_beach.png":
+/*!*************************************************************!*\
+  !*** ./src/images/cards/yunokage_walkyria_of_the_beach.png ***!
+  \*************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"55ec45a3ee04bad4369a7519c299d672.png\");\n\n//# sourceURL=webpack://vnu-booster-pack-opening/./src/images/cards/yunokage_walkyria_of_the_beach.png?");
 
 /***/ }),
 
@@ -598,7 +950,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \*****************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("var map = {\n\t\"./3am_Karaoke.png\": \"./src/images/cards/3am_Karaoke.png\",\n\t\"./Agent_XI_of_Justice_Liora.png\": \"./src/images/cards/Agent_XI_of_Justice_Liora.png\",\n\t\"./Car_Liora.png\": \"./src/images/cards/Car_Liora.png\",\n\t\"./GunPla-kyrie.png\": \"./src/images/cards/GunPla-kyrie.png\",\n\t\"./IMG_0308.png\": \"./src/images/cards/IMG_0308.png\",\n\t\"./JetLioraCard.png\": \"./src/images/cards/JetLioraCard.png\",\n\t\"./Lioopa.png\": \"./src/images/cards/Lioopa.png\",\n\t\"./LioraTCGBDay2024.png\": \"./src/images/cards/LioraTCGBDay2024.png\",\n\t\"./Liora_CFG.png\": \"./src/images/cards/Liora_CFG.png\",\n\t\"./Liora_Valkyrie_of_Yore.png\": \"./src/images/cards/Liora_Valkyrie_of_Yore.png\",\n\t\"./Liora_Walkyria_-_Pursuer_of_Fate.png\": \"./src/images/cards/Liora_Walkyria_-_Pursuer_of_Fate.png\",\n\t\"./Liora_Walkyria_Most_Youngest_and_Most_Seiso_ValkyrieSummer.png\": \"./src/images/cards/Liora_Walkyria_Most_Youngest_and_Most_Seiso_ValkyrieSummer.png\",\n\t\"./Lioras_Gambit.png\": \"./src/images/cards/Lioras_Gambit.png\",\n\t\"./Palwall.png\": \"./src/images/cards/Palwall.png\",\n\t\"./SPOILER_TCG-Liora-edition-RRR.png\": \"./src/images/cards/SPOILER_TCG-Liora-edition-RRR.png\",\n\t\"./SPOILER_TCG-Liora-edition-SP.png\": \"./src/images/cards/SPOILER_TCG-Liora-edition-SP.png\",\n\t\"./Screenshot_20240729_051325_Gallery.jpg\": \"./src/images/cards/Screenshot_20240729_051325_Gallery.jpg\",\n\t\"./TCG.png\": \"./src/images/cards/TCG.png\",\n\t\"./TCG_B.png\": \"./src/images/cards/TCG_B.png\",\n\t\"./TCG_Lioldge.png\": \"./src/images/cards/TCG_Lioldge.png\",\n\t\"./aphantasia-tcg.png\": \"./src/images/cards/aphantasia-tcg.png\",\n\t\"./arthritic_hip_TCG.png\": \"./src/images/cards/arthritic_hip_TCG.png\",\n\t\"./crab-tcg.png\": \"./src/images/cards/crab-tcg.png\",\n\t\"./crowd_control_valk_TCG.png\": \"./src/images/cards/crowd_control_valk_TCG.png\",\n\t\"./gift_of_hopepng.png\": \"./src/images/cards/gift_of_hopepng.png\",\n\t\"./image.png\": \"./src/images/cards/image.png\",\n\t\"./liora_Grand_Archive.png\": \"./src/images/cards/liora_Grand_Archive.png\",\n\t\"./liora_card.png\": \"./src/images/cards/liora_card.png\",\n\t\"./lioratcg.png\": \"./src/images/cards/lioratcg.png\",\n\t\"./saul_tcg.png\": \"./src/images/cards/saul_tcg.png\",\n\t\"./wiowa_tcg.png\": \"./src/images/cards/wiowa_tcg.png\"\n};\n\n\nfunction webpackContext(req) {\n\tvar id = webpackContextResolve(req);\n\treturn __webpack_require__(id);\n}\nfunction webpackContextResolve(req) {\n\tif(!__webpack_require__.o(map, req)) {\n\t\tvar e = new Error(\"Cannot find module '\" + req + \"'\");\n\t\te.code = 'MODULE_NOT_FOUND';\n\t\tthrow e;\n\t}\n\treturn map[req];\n}\nwebpackContext.keys = function webpackContextKeys() {\n\treturn Object.keys(map);\n};\nwebpackContext.resolve = webpackContextResolve;\nmodule.exports = webpackContext;\nwebpackContext.id = \"./src/images/cards sync recursive ^\\\\.\\\\/.*$\";\n\n//# sourceURL=webpack://vnu-booster-pack-opening/./src/images/cards/_sync_^\\.\\/.*$?");
+eval("var map = {\n\t\"./acotan_liora_gala_valkyrie.png\": \"./src/images/cards/acotan_liora_gala_valkyrie.png\",\n\t\"./acotan_liora_gala_valkyrie_foil.png\": \"./src/images/cards/acotan_liora_gala_valkyrie_foil.png\",\n\t\"./acraepheus_gun_plakryie.png\": \"./src/images/cards/acraepheus_gun_plakryie.png\",\n\t\"./astray_liora_the_teary.png\": \"./src/images/cards/astray_liora_the_teary.png\",\n\t\"./claf_palky_the_first_palkyrie.png\": \"./src/images/cards/claf_palky_the_first_palkyrie.png\",\n\t\"./darena_day_at_the_track_liora_walkyria.png\": \"./src/images/cards/darena_day_at_the_track_liora_walkyria.png\",\n\t\"./darena_soaring_valykrie.png\": \"./src/images/cards/darena_soaring_valykrie.png\",\n\t\"./doctorfaust_pen_color_stonks.png\": \"./src/images/cards/doctorfaust_pen_color_stonks.png\",\n\t\"./druwinu_liora_comfykyria.png\": \"./src/images/cards/druwinu_liora_comfykyria.png\",\n\t\"./druwinu_liora_walkyria_most_youngest_and_most_seiso_valkyrie_summer.png\": \"./src/images/cards/druwinu_liora_walkyria_most_youngest_and_most_seiso_valkyrie_summer.png\",\n\t\"./edwin_sadist_liora.png\": \"./src/images/cards/edwin_sadist_liora.png\",\n\t\"./erik_tttt_yandere_liora.png\": \"./src/images/cards/erik_tttt_yandere_liora.png\",\n\t\"./jetricson_agent_xi_of_justice_liora.png\": \"./src/images/cards/jetricson_agent_xi_of_justice_liora.png\",\n\t\"./jetricson_cheer_of_the_walkyr.png\": \"./src/images/cards/jetricson_cheer_of_the_walkyr.png\",\n\t\"./jetricson_liora_valkyrie_of_yore.png\": \"./src/images/cards/jetricson_liora_valkyrie_of_yore.png\",\n\t\"./jetricson_liora_walkyria_allwise.png\": \"./src/images/cards/jetricson_liora_walkyria_allwise.png\",\n\t\"./jetricson_liora_walkyria_devastate.png\": \"./src/images/cards/jetricson_liora_walkyria_devastate.png\",\n\t\"./jetricson_liora_walkyria_inciter.png\": \"./src/images/cards/jetricson_liora_walkyria_inciter.png\",\n\t\"./jetricson_liora_walkyria_prime.png\": \"./src/images/cards/jetricson_liora_walkyria_prime.png\",\n\t\"./jetricson_liora_walkyria_pursuer_of_fate.png\": \"./src/images/cards/jetricson_liora_walkyria_pursuer_of_fate.png\",\n\t\"./jetricson_lioras_gambit.png\": \"./src/images/cards/jetricson_lioras_gambit.png\",\n\t\"./jetricson_paradise_of_walkyr_valhalla.png\": \"./src/images/cards/jetricson_paradise_of_walkyr_valhalla.png\",\n\t\"./jetricson_stories_of_the_walkyr.png\": \"./src/images/cards/jetricson_stories_of_the_walkyr.png\",\n\t\"./jetricson_the_walkyrs_web_of_suspicion.png\": \"./src/images/cards/jetricson_the_walkyrs_web_of_suspicion.png\",\n\t\"./jetricson_walkyr_anoknight.png\": \"./src/images/cards/jetricson_walkyr_anoknight.png\",\n\t\"./jetricson_walkyr_change_alvitr.png\": \"./src/images/cards/jetricson_walkyr_change_alvitr.png\",\n\t\"./jetricson_walkyr_change_herja.png\": \"./src/images/cards/jetricson_walkyr_change_herja.png\",\n\t\"./jetricson_walkyr_change_sigdrifa.png\": \"./src/images/cards/jetricson_walkyr_change_sigdrifa.png\",\n\t\"./jetricson_walkyr_fankyrie.png\": \"./src/images/cards/jetricson_walkyr_fankyrie.png\",\n\t\"./jetricson_walkyr_guerilla.png\": \"./src/images/cards/jetricson_walkyr_guerilla.png\",\n\t\"./jetricson_walkyr_palherjar.png\": \"./src/images/cards/jetricson_walkyr_palherjar.png\",\n\t\"./jetricson_walkyr_palkyrie.png\": \"./src/images/cards/jetricson_walkyr_palkyrie.png\",\n\t\"./jetricson_walkyr_rebuttal.png\": \"./src/images/cards/jetricson_walkyr_rebuttal.png\",\n\t\"./jetricson_walkyr_support_foil.png\": \"./src/images/cards/jetricson_walkyr_support_foil.png\",\n\t\"./jetricson_walkyr_support_onekko.png\": \"./src/images/cards/jetricson_walkyr_support_onekko.png\",\n\t\"./jetricson_walkyr_united.png\": \"./src/images/cards/jetricson_walkyr_united.png\",\n\t\"./jetricson_walkyr_whalekyrie.png\": \"./src/images/cards/jetricson_walkyr_whalekyrie.png\",\n\t\"./jetricson_wet_tshirt_liora.png\": \"./src/images/cards/jetricson_wet_tshirt_liora.png\",\n\t\"./kai_lior_old_walkingstickyria.png\": \"./src/images/cards/kai_lior_old_walkingstickyria.png\",\n\t\"./lato_aphantasia.png\": \"./src/images/cards/lato_aphantasia.png\",\n\t\"./lato_the_crab_on_lioras_thigh.png\": \"./src/images/cards/lato_the_crab_on_lioras_thigh.png\",\n\t\"./master117_wiowa_of_april_1st.png\": \"./src/images/cards/master117_wiowa_of_april_1st.png\",\n\t\"./micah_chibi_lio_booty.png\": \"./src/images/cards/micah_chibi_lio_booty.png\",\n\t\"./mimi_liorge_walkington.png\": \"./src/images/cards/mimi_liorge_walkington.png\",\n\t\"./nate0095_palwall_defender_against_unseiso.png\": \"./src/images/cards/nate0095_palwall_defender_against_unseiso.png\",\n\t\"./nitelite_car_liora_and_s_food.png\": \"./src/images/cards/nitelite_car_liora_and_s_food.png\",\n\t\"./nitelite_lioopa_troopa.png\": \"./src/images/cards/nitelite_lioopa_troopa.png\",\n\t\"./proswagonist_lgs_surprise.png\": \"./src/images/cards/proswagonist_lgs_surprise.png\",\n\t\"./proswagonist_liora_the_nurse.png\": \"./src/images/cards/proswagonist_liora_the_nurse.png\",\n\t\"./proswagonist_liora_the_nurse_question_mark.png\": \"./src/images/cards/proswagonist_liora_the_nurse_question_mark.png\",\n\t\"./proswagonist_palkyries_dream.png\": \"./src/images/cards/proswagonist_palkyries_dream.png\",\n\t\"./proswagonist_wake_of_the_walkyrie.png\": \"./src/images/cards/proswagonist_wake_of_the_walkyrie.png\",\n\t\"./ramses_liora_valkyries_might.png\": \"./src/images/cards/ramses_liora_valkyries_might.png\",\n\t\"./ramses_pretty_magical_palkyrie_princess_wiowa.png\": \"./src/images/cards/ramses_pretty_magical_palkyrie_princess_wiowa.png\",\n\t\"./sably_saul_crowd_control_valk_TCG.png\": \"./src/images/cards/sably_saul_crowd_control_valk_TCG.png\",\n\t\"./sably_saul_saul_sleepy_palkyrie.png\": \"./src/images/cards/sably_saul_saul_sleepy_palkyrie.png\",\n\t\"./sero_liora_emblem.png\": \"./src/images/cards/sero_liora_emblem.png\",\n\t\"./sero_liora_walkuma.png\": \"./src/images/cards/sero_liora_walkuma.png\",\n\t\"./shycactus_bad_luck_liora.png\": \"./src/images/cards/shycactus_bad_luck_liora.png\",\n\t\"./tcgcleric_3am_karaoke.png\": \"./src/images/cards/tcgcleric_3am_karaoke.png\",\n\t\"./tcgcleric_bedside_palkyrie.png\": \"./src/images/cards/tcgcleric_bedside_palkyrie.png\",\n\t\"./xellotath_a_gift_of_hope.png\": \"./src/images/cards/xellotath_a_gift_of_hope.png\",\n\t\"./yunokage_walkyria_of_the_beach.png\": \"./src/images/cards/yunokage_walkyria_of_the_beach.png\"\n};\n\n\nfunction webpackContext(req) {\n\tvar id = webpackContextResolve(req);\n\treturn __webpack_require__(id);\n}\nfunction webpackContextResolve(req) {\n\tif(!__webpack_require__.o(map, req)) {\n\t\tvar e = new Error(\"Cannot find module '\" + req + \"'\");\n\t\te.code = 'MODULE_NOT_FOUND';\n\t\tthrow e;\n\t}\n\treturn map[req];\n}\nwebpackContext.keys = function webpackContextKeys() {\n\treturn Object.keys(map);\n};\nwebpackContext.resolve = webpackContextResolve;\nmodule.exports = webpackContext;\nwebpackContext.id = \"./src/images/cards sync recursive ^\\\\.\\\\/.*$\";\n\n//# sourceURL=webpack://vnu-booster-pack-opening/./src/images/cards/_sync_^\\.\\/.*$?");
 
 /***/ })
 
